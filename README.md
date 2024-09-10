@@ -21,7 +21,7 @@ The Smart Energy Supply Scheduling for Green Telecom Challenge, organized by the
 Participants are tasked with designing an energy supply strategy that specifies when and which energy sources (grid, solar, diesel) to use. The strategy must minimize the total energy supply costs while maintaining the battery’s state of charge (SOC) above a defined discharge threshold. The challenge involves predicting daily solar energy generation and determining optimal usage strategies for the available energy sources based on historical data.
 
 ## Dataset
-The dataset provided for this challenge is divided into the following key files:
+The [dataset](https://zindi.africa/competitions/smart-energy-supply-scheduling-for-green-telecom/data) provided for this challenge is divided into the following key files:
 - _Energy Consumption Data:_ Hourly data detailing the energy consumption of base stations.
 - _Site Information and Grid Outage Data:_ Information on site configuration, battery capacity, grid outage plans, and diesel power output.
 - _Solar Power and Weather Conditions Data:_ Hourly solar power statistics and weather conditions affecting solar energy generation.
