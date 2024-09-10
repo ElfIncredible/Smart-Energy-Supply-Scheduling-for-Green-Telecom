@@ -1,5 +1,5 @@
 # Smart Energy Supply Scheduling for Green Telecom Challenge
-
+The project emphasizes the importance of optimizing energy use in the telecom sector, contributing to cost reduction and environmental sustainability goals.
 
 ## Table of Contents
 - [Project Overview](#project-overview)
@@ -7,6 +7,11 @@
 - [Dataset](#dataset)
 - [Machine Learning Prediction](#machine-learning-prediction)
   - [Data Exploration and Preprocessing](#data-exploration-and-preprocessing)
+  - [Correlation Analysis](#correlation-analysis)
+  - [Feature Engineering](#feature-engineering)
+  - [Model Training and Optimization](#model-training-and-optimization)
+  - [Prediction and Strategy Formulation](#prediction-and-strategy-formulation)
+  - [Submission Preparation](#submission-preparation)
 - [Results](#results)
 
 ## Project Overview
@@ -28,23 +33,23 @@ The dataset provided for this challenge is divided into the following key files:
 - Generat new features such as time from the provided hour and day data.
 - Encode categorical variables and create a unified dataset for analysis.
 
-### 2. Correlation Analysis:
+### Correlation Analysis
 - Investigate correlations between various features and the target variable (energy output).
 - Test hypotheses regarding the relationships between energy output and factors such as solar zenith angle, Clearsky DNI, relative humidity, and other metrics.
 
-### 3. Feature Engineering:
+### Feature Engineering
 - Select relevant numeric features for modeling based on correlation analysis.
 - Create a time feature to represent the hour of the day adjusted for day and hour.
 
-### 4. Model Training and Optimization:
+### Model Training and Optimization
 - Employ XGBoost Regressor to model energy output prediction.
 - Use GridSearchCV to tune hyperparameters and select the best model.
 
-### 5. Prediction and Strategy Formulation:
+### Prediction and Strategy Formulation
 - Generate predictions for energy output using the optimized model.
 - Develop a strategy to decide on energy source usage based on predicted energy output and predefined thresholds.
 
-### Submission Preparation:
+### Submission Preparation
 - Create a submission file with columns indicating the usage of grid, solar, and diesel power.
 - Ensure the output format aligns with the challenge requirements, including continuous time series and alphabetical ordering of sites.
 
