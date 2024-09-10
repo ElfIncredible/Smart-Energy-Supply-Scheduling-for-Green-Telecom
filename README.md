@@ -54,7 +54,7 @@ The [dataset](https://zindi.africa/competitions/smart-energy-supply-scheduling-f
 - Ensure the output format aligns with the challenge requirements, including continuous time series and alphabetical ordering of sites.
 
 ## Results
-The final model was evaluated using metrics such as RMSE, MAE, and R-squared to assess its performance on the test set. The results are used to generate predictions for energy output, which are then translated into a strategy for energy source utilization.
+The final model is evaluated using metrics such as RMSE, MAE, and R-squared to assess its performance on the test set. The results are used to generate predictions for energy output, which are then translated into a strategy for energy source utilization.
 
 The submission file is designed to ensure:
 - Correct ordering of sites and time periods.
